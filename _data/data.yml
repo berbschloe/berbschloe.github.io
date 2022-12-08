@@ -29,7 +29,7 @@ sidebar:
     pdf: assets/PDFs/Resume.pdf
 
     languages:
-      enable: True
+      enable: False
       title: Skills
       info:
         - idiom: English
@@ -46,16 +46,25 @@ sidebar:
       title: Interests
       info:
         - item: Biking
+          fa_icon: bicycle
           link:
 
         - item: Geography
-          link:
+          fa_icon: map
+          link: 
 
         - item: Weight Lifting
-          link:
+          fa_icon: heartbeat
+          link: 
 
         - item: Grilling
+          fa_icon: fire
           link:
+
+        - item: Gamming
+          fa_icon: gamepad
+          link:
+
 
 career-profile:
     enable: True
@@ -80,14 +89,14 @@ experiences:
     enable: True
     title: Experiences
     info:
-      - role: Senior Engineer & Co-Founder
+      - role: Senior Engineer &amp; Co-Founder
         time: Janurary 2021 - Present
-        company: Hallway Video Communication
+        company: Hallway Tile
         details: |
           Developed and released cross platform (mac, windows, web) motion tracking software that 
           replaces your face with a virtual avatar that can be used for video calls and live streaming. 
           Joined the 2022 Sequa Arc Cohort and Scale Accelerator startup programs.
-      - role: Senior Mobile Engineer
+      - role: Senior Mobile Engineer &amp; Co-Founder
         time: June 2012 - December 2020
         company: QuarkWorks
         details: |
@@ -98,33 +107,31 @@ experiences:
 projects:
     enable: True
     title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    intro:
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: EquipmentShare
+        link: "https://www.equipmentshare.com/digital-solutions/robotics"
+        tagline: | 
+          Released the initial iOS Machine Automation Portal (MAP) app for a 2 ton autonomous ground compactor. 
+          It was presented at the 2019 Bauma event in which operators could remotely control a ground compactor located in the US from Germany
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Handshake
+        link: "https://play.google.com/store/apps/details?id=com.joinhandshake.student&hl=en_US&pli=1"
+        tagline: |
+          Initial engineer and team manager for Android Student application which encouraged students to apply for jobs, chat with employers, and join live video career fair sessions.
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Houseparty
+        link: "https://housepartyapp.net"
+        tagline: |
+          Engineered features for both iOS and Android for a multi million user video streaming application that was later acquired by EpicGames.
 
-      - title: Atom
+      - title: Eventbrite
         link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: |
+          Joined existing team to refactor a legacy iOS Organizer app from Objective-C to Swift while still maintaining a bi-weekly release schedule.
 
 oss:
-    enable: True
+    enable: False
     title: OSS Contributions
     intro: >
       You can list your open source software contributions in this
@@ -144,7 +151,7 @@ oss:
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
-    enable: True
+    enable: False
     title: Publications
     intro: |
       You can list your publications in this section. Lorem ipsum dolor sit

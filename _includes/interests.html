@@ -8,13 +8,16 @@
 
   <ul class="list-unstyled interests-list">
     {% for interest in interests.info %}
-
-      {% if interest.link %}
-      <li><a href="{{ interest.link }}">{{ interest.item }}</a></li>
-      {% else %}
-      <li>{{ interest.item }}</li>
-      {% endif %}
-
+      <li>
+        {%if interest.fa_icon %}
+        <i class="fa fa-{{ interest.fa_icon }}" aria-hidden="true"></i>
+        {% endif %}
+        {% if interest.link %}
+        <a href="{{ interest.link }}">{{ interest.item }}</a>
+        {% else %}
+        <span>{{ interest.item }}</span>
+        {% endif %}
+      </li>
     {% endfor %}
   </ul>
 
