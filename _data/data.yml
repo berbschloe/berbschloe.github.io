@@ -45,7 +45,7 @@ sidebar:
       enable: True
       title: Interests
       info:
-        - item: Biking
+        - item: Cycling
           fa_icon: bicycle
           link:
 
@@ -53,7 +53,7 @@ sidebar:
           fa_icon: map
           link: 
 
-        - item: Weight Lifting
+        - item: Strength Training
           fa_icon: heartbeat
           link: 
 
@@ -61,7 +61,7 @@ sidebar:
           fa_icon: fire
           link:
 
-        - item: Gamming
+        - item: Gaming
           fa_icon: gamepad
           link:
 
@@ -89,14 +89,14 @@ experiences:
     enable: True
     title: Experiences
     info:
-      - role: Senior Engineer &amp; Co-Founder
+      - role: Senior Software Engineer &amp; Co-Founder
         time: Janurary 2021 - Present
         company: Hallway Tile
         details: |
           Developed and released cross platform (mac, windows, web) motion tracking software that 
           replaces your face with a virtual avatar that can be used for video calls and live streaming. 
           Joined the 2022 [Sequa Arc Cohort](https://arc.sequoiacap.com) and [Scale Accelerator](https://www.scale-vc.com) startup programs.
-      - role: Senior Mobile Engineer &amp; Co-Founder
+      - role: Lead Mobile Engineer &amp; Co-Founder
         time: June 2012 - December 2020
         company: QuarkWorks
         details: |
