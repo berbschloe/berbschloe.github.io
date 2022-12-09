@@ -70,11 +70,10 @@ career-profile:
     enable: True
     title: Career Profile
     summary: |
-      Senior Mobile Software Engineer with over a decade of industry experience. 
-      Co-Founded QuarkWorks, a mobile software development agency. 
-      Developed for and led multiple engineering teams in the domains of:
-      event ticketing, payment processing, ecommerce, social networks, autonomous construction equipment, health / fitness,
-      and real time video ML processing.
+      Senior Mobile Engineer with over a decade of industry experience building native iOS and Android applications. 
+      Co-Founded QuarkWorks, a mobile software development agency.
+      Led multiple engineering teams in the domains of: event ticketing, payment processing, ecommerce, social networks, autonomous construction equipment, 
+      health / fitness, and real time video ML processing.
 
 education:
     enable: True
@@ -101,8 +100,8 @@ experiences:
         company: QuarkWorks
         details: |
           Co-Founded and grew a multi-client development agency from 3 to 30 employees. 
-          Developed and led mobile teams for companies such as Gametime, Eventbrite, Handshake, Houseparty, 
-          Equipmentshare, Trynow, Paceline, Epic Games, and Reddit.
+          Specialized in developing native iOS and Android applications for companies such as 
+          Gametime, Eventbrite, Handshake, Houseparty, Equipmentshare, Trynow, Paceline, Epic Games, and Reddit.
 
 projects:
     enable: True
