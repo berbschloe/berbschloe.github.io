@@ -131,24 +131,23 @@ projects:
           Joined existing team to refactor a legacy iOS Organizer app from Objective-C to Swift while still maintaining a bi-weekly release schedule.
 
 oss:
-    enable: False
+    enable: True
     title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    intro: 
     contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Squidward
+        link: "https://github.com/berbschloe/Squidward"
+        tagline: A collection of additional layout anchor types meant to complement UIKit's existing constraint system.
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Patrick
+        link: "https://github.com/berbschloe/Patrick"
+        tagline: A TypeSafe Predicate Query DSL for Realm and CoreData written in Swift.
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: AutoDequeue
+        link: "https://github.com/berbschloe/AutoDequeue"
+        tagline: |
+          A type safe way to auto dequeue UITableView, UICollectionView, and MKMapView elements without having to call the register function. 
+          Element registration, type casting, and error handling are all done inside a the single dequeue method.
 
 publications:
     enable: False
